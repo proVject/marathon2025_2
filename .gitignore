@@ -6,6 +6,7 @@
 /e2e/test-output/
 /.angular/
 .angular/
+**/.idea
 
 # Ignore variables files
 .terraform.lock.hcl
