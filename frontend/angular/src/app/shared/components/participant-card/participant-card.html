@@ -9,7 +9,7 @@
     <span class="pill">Admin</span>
   }
 
-  @if (showCopyIcon() && !participant().isAdmin) {
+  @if (showCopyIcon()) {
     <app-icon-button
       [iconName]="iconCopy"
       [ariaLabel]="ariaLabelCopy"
